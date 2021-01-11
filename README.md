@@ -1,4 +1,4 @@
-## Halfbrick code taks
+## Halfbrick code task
 
 # Essential tasks
 
