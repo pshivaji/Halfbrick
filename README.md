@@ -3,8 +3,11 @@
 # Essential tasks
 
 First three tasks where in included in data_analysis.py file with three function:
+
 #csv_json
+
 #data_summary 
+
 #sql_insert
 
 This python solution acts as cli(command line interface), i also made it user interface.
