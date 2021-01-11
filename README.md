@@ -17,6 +17,9 @@ futher, user will be asked whether they want to conduct some analysis on data. B
 
 Lastly, user will be asked whether they want to convert csv file to SQL insert into statements and when "y" results are generated.
 
+we can simply run the code by following command in console
+# $ python data_anaysis.py
+
 # Optional tasks:
 
 Docker file was created adding the commands to exicute the python script
