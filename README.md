@@ -8,7 +8,7 @@ First three tasks where in included in data_analysis.py file with three function
 
 *data_summary:
 
-![image info](results/task2result.png)
+![image info](results/task2_result.png)
 
 *sql_insert:
 
