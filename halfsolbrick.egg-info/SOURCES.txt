@@ -1,0 +1,7 @@
+README.md
+setup.py
+halfsolbrick.egg-info/PKG-INFO
+halfsolbrick.egg-info/SOURCES.txt
+halfsolbrick.egg-info/dependency_links.txt
+halfsolbrick.egg-info/requires.txt
+halfsolbrick.egg-info/top_level.txt
