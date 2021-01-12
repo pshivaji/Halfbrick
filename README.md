@@ -6,12 +6,15 @@ First three tasks where in included in data_analysis.py file with three function
 
 *csv_json
 
+https://raw.githubusercontent.com/pshivaji/Halfbrick/main/results/task1_results.json
+
 *data_summary:
 
 ![image info](results/task2_results.png)
 
 *sql_insert:
 
+https://raw.githubusercontent.com/pshivaji/Halfbrick/main/results/task3_results.txt
 '''
 
 This python solution acts as cli(command line interface), i also made it user interface.
