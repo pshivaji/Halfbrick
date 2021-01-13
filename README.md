@@ -11,7 +11,7 @@ First three tasks where in represented in data_analysis.py file with three funct
 
 output for sandbox csv file:  https://raw.githubusercontent.com/pshivaji/Halfbrick/main/results/task1_results.json
 
-*data_summary: Gives the summary of data or data insights in different plots
+*data_summary: Gives the summary of data or data insights in different plots . Below plot are user counts based on different category.
 
 ![image info](results/task2_results.png)
 
