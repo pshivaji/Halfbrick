@@ -88,17 +88,17 @@ You can find the package info here https://pypi.org/project/codetestsol/0.0.1/
 Futher commands in python access the functions:
 
 ```bash
+from codetestsol import functions
+```
+
+```bash
 functions.csv_json("sample.csv")  
 functions.data_summary ("sample.csv") 
 functions.sql_insert("sample.csv") 
 ```
-User must provide the csv as "filename.csv"
+User must provide the input csv file as "filename.csv"
 
-```bash
-functions.csv_json("input.csv") 
-functions.data_summary ("input.csv") 
-functions.sql_insert("input.csv") 
-```
+
 
 
 
