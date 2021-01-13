@@ -45,7 +45,7 @@ User can choose yes or no depending the requirement they have.
 
 Docker file was created adding the commands to exicute the python script
 
-Command to create a docker image 
+Command to create a docker image (my-python-app)
 
 ```bash
 $ docker build -t my-python-app .
