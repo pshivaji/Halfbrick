@@ -5,7 +5,7 @@ Shivaji parala
 
 ## Essential tasks
 
-First three tasks where in included in data_analysis.py file with three function:
+First three tasks where in represented in data_analysis.py file with three function:
 
 *csv_json : converts csv file to json file. 
 
@@ -20,23 +20,28 @@ output for sandbox csv file:  https://raw.githubusercontent.com/pshivaji/Halfbri
 https://raw.githubusercontent.com/pshivaji/Halfbrick/main/results/task3_results.txt
 '''
 
-This python solution acts as cli(command line interface), I also made it user interface.
-
-When you run the code in command prompt, user will be seeing a message to enter csv file name. (just the file name no .csv extension)
-
-Next user will be asked whether they want to convert given csv file to json file
-
-Futhermore, user will be asked whether they want to conduct some analysis on data. Bar and pie plots where impleented to explain the data insights.
-
-Lastly, user will be asked whether they want to convert csv file to SQL insert into statements and results are generated.
-
-we can simply run the code by following command in console:
+The python solution involves user input (Name of the csv file, if file is "sandbox.csv" just type sandbox) can be run using command prompt.
 
 ```bash
 $ python data_anaysis.py
 ```
 
+More like a game, user can choose which function to perform  on the csv file provided.
+
+Three messages which will appearning when user run the code are 
+
+```bash
+Do you want convert csv to json file(y/n):
+Do you want summary of the data(y/n):
+convert to sql statements(y/n):
+```
+
+User can choose yes or no depending the requirement they have.
+
+
 ## Optional tasks:
+
+### Runnning in Dockaer container
 
 Docker file was created adding the commands to exicute the python script
 
@@ -52,21 +57,42 @@ Command to run the image in a container
 $ docker run -it --rm --name my-running-app my-python-app
 ```
 
-##pip Packaging 
+## pip Packaging and publishing
+
+                     codetestsol
+
+                          |
+                          |
+                          |
+
+                      functions
+
+                          | 
+                          |  
+                          |
+          ---------------------------------
+          |               |               |      
+          |               |               |
+          |               |               |               
+      csv_json       data_summary     sql_insert
 
 I have used Setup tools and twine packages to generate package and publish it in pip.
 
-You can access the package for the python solution by 
+You can access the package for this python solution by 
 
 ```bash
-pip install halfsolbrick
+pip install codetestsol
 ```
-You can find the package in https://pypi.org/project/halfsolbrick/
+You can find the package info here https://pypi.org/project/codetestsol/0.0.1/
 
-to 
+Futher commands in python access the functions:
+
 ```bash
-from halfsolbrick import functions
+functions.csv_json("sample.csv")  
+functions.data_summary ("sample.csv") 
+functions.sql_insert("sample.csv") 
 ```
+User must provide the csv as "filename.csv"
 
 ```bash
 functions.csv_json("input.csv") 
